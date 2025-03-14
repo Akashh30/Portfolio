@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Nair Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9769ca64be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Akash.png"  class="logo">
+                <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>DevOps Engineer / Data analyst </p>
+                <h1>Hi, I'm <span>Akash Nair</span> From Mumbai</h1>
+                <br>
+                <h5>Welcome To My <span>Portfolio!</span></h5>
+            </div>
+        </div>
+    </div>
+
+ <!-- -----about ---- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/PP.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a DevOps Engineer based in Mumbai, passionate about automating and optimizing development workflows.
+                        I enjoy working with cloud infrastructure, CI/CD pipelines, and containerization to streamline deployments and improve system efficiency. 
+                        I actively build experience through hands-on projects, exploring various DevOps tools and methodologies to enhance my skills. 
+                        Eager to contribute my problem-solving mindset and technical expertise to a collaborative engineering team.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Docker & Dockerhub</span><br></li>
+                            <li><span>Jenkins CI CD</span><br></li>
+                            <li><span>Ansible</span><br></li>
+                            <li><span>Terraform</span><br></li>
+                            <li><span>Grafana</span><br></li>
+                            <li><span>Git & Github</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>Linux</span><br></li>
+                            <li><span>Html,CSS</span><br></li>
+                            <li><span>Bootstrap</span><br></li>
+                            <li><span>Python</span><br></li>
+                            <!-- <br>
+                            <p>(Another skill / knowledge area )</p>
+                            <br>
+                            <li><span>C programming</span><br></li>
+                            <li><span>C++ programming</span><br></li> -->
+                            <li><span>PowerBI</span><br></li>
+                            <li><span>Microsoft Excel</span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>AWS Cloud Practioner Certication</span><br><br>(Valid till 2027)</li>
+                            <br>
+                            <li><span>MKCL Certification of C programming</span><br></li>
+                            <br>
+                            <li><span>MKCL Certification of C++ programming</span><br></li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Currently pursuing MSc in Computer Science from Ramnarian Ruia College. </span><br>2023-2025</li>
+                            <li><span>Completed BSc in Computer Science from Mulund College of Commerce with a CGPA of 7.60. </span><br>2020-2023</li>
+                            <li><span>Completed HSC, in CHM college  with an academic score of 70.4%</span><br>2018-2020</li>
+                            <li><span>Completed SSC, in  SICES school  with an academic score of 92%</span><br>2017-2018</li>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- -----services ---- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Deployment</h2>
+                <p>Automating and optimizing deployment processes to ensure smooth, efficient, and reliable application releases. 
+                    I specialize in containerization, cloud deployment, and infrastructure as code (IaC) for scalable solutions.</p>
+                <a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/deployment-strategies.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>CI CD</h2>
+                <p>Implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines to streamline software delivery. 
+                    I focus on automation, testing, and monitoring to enhance development efficiency and reduce deployment risks.</p>
+                <a href="https://github.com/resources/articles/devops/ci-cd">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Data Analysis</h2>
+                <p>Utilizing data-driven insights to make informed business decisions. I specialize in data visualization, statistical analysis, 
+                    and machine learning techniques to uncover trends and optimize performance.</p>
+                <a href="https://stripe.com/jobs/listing/data-analyst/5601881">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- -----portfolio ---- -->
+<div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/docker.png">
+                <div class="layer">
+                    <h3>Docker Deployment</h3>
+                    <P>Deploying a react web application using docker,jenkins,AWS and kubernetes.</P>
+                    <a href="https://drive.google.com/file/d/1F3vJOgDK_xBXdAwx6fAJKlkxz3HKd2iK/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <!-- <div class="work">
+                <img src="images/spotify.png">
+                <div class="layer">
+                    <h3>Spotify Management using Terraform (DevOps)</h3>
+                    <P>Managing Spotify using one of the important devops technology </P>
+                    <a href="https://www.figma.com/proto/4vtoOD1zbsJY0ArRCv6eA0/Movie%2B?node-id=1-2&t=zsJyknYoJyISAbcD-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+            <div class="work">
+                <img src="images/spotify.png">
+                <div class="layer">
+                    <h3>Spotify Management using Terraform (DevOps)</h3>
+                    <P>Managing Spotify using one of the important devops technology</P>
+                    <a href="https://drive.google.com/file/d/1KmcwMH5Dtrsjmr_DwlRFSiXL2iSI7rxQ/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/Bs1.jpeg">
+                <div class="layer">
+                    <h3>Bash Scripting</h3>
+                    <P>A Bash script that monitors various system resources and presents them in a real-time dashboard format.</P>
+                    <a href="https://drive.google.com/file/d/1tufBXGetsyEidu0f_4I-DwiYXwcfX0bt/view"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/SS3.png">
+                <div class="layer">
+                    <h3>Hosting Full Stack Web Appilcation</h3>
+                    <P>Hosted a Full-Stack JavaScript Web Application on AWS using DevOps tools and practices.</P>
+                    <a href="https://drive.google.com/file/d/1vDB6hInQMF7y1ohK33iIYvAV3r2CRo3-/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            
+            
+        </div>
+        <div id="more-projects" style="display: none;"></div>
+        <a href="#" class="btn" id="see-more">See more</a>
+     </div> 
+</div>
+
+<!-- contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>akash30nair@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>91-7448293195</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100055625036652"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Akashh/"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/akshh_30/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/akash-nair-1163ab28a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Akash. Made By Akash Nair</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQMQacYglwOMIoZO6raz2O6WQa8hXjm9c7aR39pdcRT0yPgo68k8QI-o_N2m5ms-3FNw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+             setTimeout(function(){
+                msg.innerHTML = ""
+             },5000)
+             form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    
+    document.getElementById("see-more").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const moreProjects = document.getElementById("more-projects");
+    moreProjects.innerHTML = `
+        <div class="work-list">
+            <div class="work">
+                <img src="images/backendDeployemt.png">
+                <div class="layer">
+                    <h3>Backend Deployement</h3>
+                    <P>Deploying the backend of a full stack web application using in AWS using docker-compose </P>
+                    <a href="https://drive.google.com/file/d/1l8geqBvabc7DrCzvNNE_SVijSj3dNhgi/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/apache.png">
+                <div class="layer">
+                    <h3>Docker Deployment (DevOps)</h3>
+                    <P>Deploying a react based web application using different DevOps Technologies</P>
+                    <a href="https://drive.google.com/file/d/1RWj-1zJ-dNeBe5nyL23STxrV1HbHzoEz/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mananstore.png">
+                <div class="layer">
+                    <h3>Data Anlaysis using Excel (Data Analyst)</h3>
+                    <P>Manan Store Data Analysis</P>
+                    <a href="https://1drv.ms/x/s!ApeiJR74R-V_cCViffGCAyXvF8A?e=oGL5qa"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Power.png">
+                <div class="layer">
+                    <h3>Data analyzing using powerbi (Data Analyst)</h3>
+                    <P>Creating dashboards in powerbi using different data insights</P>
+                    <a href="https://drive.google.com/file/d/1TeTVeLuVQf3S8rlaSmtVaJ4PJSvysuCO/view"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sql.png">
+                <div class="layer">
+                    <h3>Data Analysis using SQL (Data Analyst)</h3>
+                    <P>Analyzing pizza store data using SQL</P>
+                    <a href="https://1drv.ms/p/s!ApeiJR74R-V_dzhrAP01CytIye8?e=QBeQoQ"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+</div>
+
+    `;
+    moreProjects.style.display = "flex";
+    this.style.display = "none"; // Hide the "See more" button after loading
+});
+
+  </script>
+</body>
+</html>
