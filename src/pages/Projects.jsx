@@ -16,32 +16,28 @@ function Projects(){
                 <details>
                     <summary className="text-white text-sm text-start">Detail Documentation</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://drive.google.com/file/d/1wjpGZ2LWGuIFIj7BERTT0Ix06HSeTqeU/view?usp=sharing" target="_blank">View Documentation</a>
                 </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Watch Video</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://cyfinex.com/" target="_blank">https://cyfinex.com/</a>
                 </p>
                 </details>
 
                  <details>
                     <summary className="text-white text-sm text-start">Github Link</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://cyfinex.com/"  target="_blank">https://cyfinex.com/</a>
                 </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Live Demo</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://cyfinex.com/"  target="_blank">https://cyfinex.com/</a>
                 </p>
                 </details>
             </div> <br />
@@ -53,32 +49,28 @@ function Projects(){
                 <details>
                     <summary className="text-white text-sm text-start">Detail Documentation</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://drive.google.com/file/d/1IYx9wPZf-O5r0BIytgNCTTivBTPJN8Mg/view?usp=sharing" target="_blank">View Documentation</a>
                 </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Watch Video</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    
                 </p>
                 </details>
 
                  <details>
                     <summary className="text-white text-sm text-start">Github Link</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    
                 </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Live Demo</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    
                 </p>
                 </details>
             </div> <br />
@@ -89,32 +81,28 @@ function Projects(){
                 <details>
                     <summary className="text-white text-sm text-start">Detail Documentation</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                     <a href="https://drive.google.com/file/d/1prHgJzPBjthKYfyD_MbSeGa-wkBOhwJG/view?usp=sharing" target="_blank">View Documentation</a>
+                    </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Watch Video</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                    <a href="https://drive.google.com/file/d/1qZzHGUd41ctuUzxZ4F9W1k_1WKSx_VSi/view?usp=sharing" target="_blank">Watch full video of website</a>
+                    </p>
                 </details>
 
                  <details>
                     <summary className="text-white text-sm text-start">Github Link</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                    For source code contact Akash Nair.
+                    </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Live Demo</summary>
                 <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
+                    <a href="https://akashh30.github.io/cyberlion/" target="_blank">https://akashh30.github.io/</a>
                 </p>
                 </details>
             </div> <br />
@@ -125,34 +113,30 @@ function Projects(){
                 <p className="text-white text-base text-start">Designed and developed by me, this portfolio draws inspiration from my admiration for Batman, blending its iconic aesthetic with a modern and professional design.</p>
                 <details>
                     <summary className="text-white text-sm text-start">Detail Documentation</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                     <a href="https://drive.google.com/file/d/1rUWhyqzawtOoTDRDHnBzuKE-VhHt3img/view?usp=sharing" target="_blank">View Documentation</a>
+                    </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Watch Video</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                     <a href="https://drive.google.com/file/d/1ui3U2CiMUNnNMNIkbz8t2Hb7S_Ryk313/view?usp=sharing" target="_blank">Watch full video of website</a>
+                    </p>
                 </details>
 
                  <details>
                     <summary className="text-white text-sm text-start">Github Link</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                     For source code contact Akash Nair
+                    </p>
                 </details>
 
                 <details>
                     <summary className="text-white text-sm text-start">Live Demo</summary>
-                <p className="text-white text-sm text-start">
-                    CyberLions is an AI-powered bot designed to provide intelligent responses
-                    and assist users with various tasks.
-                </p>
+                    <p className="text-white text-sm text-start">
+                    <a href="https://akashh30.github.io/Portfolio/" target="_blank">https://akashh30.github.io/Portfolio/</a>
+                    </p>
                 </details>
             </div> <br /> <br /> <br /> <br />
     

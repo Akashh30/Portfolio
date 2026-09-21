@@ -10,7 +10,6 @@ function App(){
     <Home/>
     <Routes>
        <Route path="/" element={<Education/>}/>
-       <Route path="/Portfolio/" element={<Education/>}/>
        <Route path="/Education" element={<Education/>} />
        <Route path="/Projects" element={<Projects/>}/>
        <Route path="/Contact" element={<Contact/>}/>

@@ -202,6 +202,8 @@ function Education() {
                     </table>
 
                 </div>
+                <br />
+                <br />
 
             </section>
 

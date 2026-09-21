@@ -18,10 +18,10 @@ function Footer(){
                  
                 <div className="flex flex-col gap-1">
                    <div className="flex flex-row gap-2 pr-10 max-[550px]:pr-0 items-center">
-                    <span><a href=""><img src={instaa} alt="" className="w-[25px] cursor-pointer"/></a></span>
-                    <span><a href=""><img src={facebook} alt="" className="w-[25px] cursor-pointer"/></a></span>
-                    <span><a href=""><img src={twitter} alt="" className="w-[20px] cursor-pointer"/></a></span>
-                    <span><a href=""><img src={linkedin} alt="" className="w-[20px] cursor-pointer"/></a></span>
+                    <span><a href="https://www.instagram.com/akashnair_01/"><img src={instaa} alt="" className="w-[25px] cursor-pointer"/></a></span>
+                    <span><a href="https://www.facebook.com/share/1HF7GUdfZA/"><img src={facebook} alt="" className="w-[25px] cursor-pointer"/></a></span>
+                    <span><a href="https://www.twiter.com"><img src={twitter} alt="" className="w-[20px] cursor-pointer"/></a></span>
+                    <span><a href="https://www.linkedin.com/in/akash-nair-1163ab28a/"><img src={linkedin} alt="" className="w-[20px] cursor-pointer"/></a></span>
                     </div>
                     <div>
                         <span className="text-xs bg-linear-to-r from-white/40 via-white to-white/98 bg-clip-text text-transparent font-poppins font-medium">Akash Nair @ 2026</span>
