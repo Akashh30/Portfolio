@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-miniver: "Miniver", cursive;
+   --font-caveat: "Caveat", cursive;
+   --font-dancing: "Dancing Script", cursive;
+}
+
+.image-fade {
+  -webkit-mask-image:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 30%,
+      black 85%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%
+    );
+
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 30%,
+      black 85%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 15%,
+      black 85%,
+      transparent 100%
+    );
+
+  mask-composite: intersect;
+}
+
+
+
